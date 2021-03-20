@@ -1,68 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
-
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
-
-        You should have received a copy of the GNU General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:wubydax="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/rebootMenuMain"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <View
         android:id="@+id/protectiveView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/protective_semi_transparent_black"/>
+        android:background="@drawable/protective_semi_transparent_black" />
 
     <LinearLayout
-        android:id="@+id/rebootContainer"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="72dp"
         android:layout_marginTop="72dp"
+        android:layout_marginBottom="72dp"
         android:orientation="vertical"
         android:weightSum="3">
 
-        <com.wubydax.romcontrol.v2.views.RebootView
-            android:id="@+id/rebootDevice"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="center_horizontal"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
-            wubydax:rebootColor="@color/colorAccent"
-            wubydax:rebootText="@string/reboot_device_text"/>
+            android:orientation="vertical"
+            android:weightSum="3">
 
-        <com.wubydax.romcontrol.v2.views.RebootView
-            android:id="@+id/rebootRecovery"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            wubydax:rebootColor="@color/colorPrimary"
-            wubydax:rebootText="@string/reboot_recovery_text"/>
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/rebootDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reboot_device_text"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/colorAccent"
+                app:icon="@drawable/ic_reboot"
+                app:iconTint="@android:color/white" />
 
-        <com.wubydax.romcontrol.v2.views.RebootView
-            android:id="@+id/rebootUI"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="center_horizontal"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
-            wubydax:rebootColor="@color/colorAccent"
-            wubydax:rebootText="@string/reboot_ui_text"/>
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/rebootRecovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reboot_recovery_text"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/colorAccent"
+                app:icon="@drawable/ic_recovery"
+                app:iconTint="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/rebootUI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reboot_ui_text"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/colorAccent"
+                app:icon="@drawable/ic_android"
+                app:iconTint="@android:color/white" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </FrameLayout>

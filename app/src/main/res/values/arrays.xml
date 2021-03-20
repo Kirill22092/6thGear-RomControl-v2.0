@@ -1,86 +1,313 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
-
-        You should have received a copy of the GNU General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
-<resources>
-
-    <string-array name="test_list_entries">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Let\'s make twenty</item>
-    </string-array>
-    <string-array name="test_list_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>20</item>
-    </string-array>
     <string-array name="theme_items">
+        <item>System default</item>
         <item>Light theme</item>
         <item>Dark theme</item>
     </string-array>
+
     <string-array name="backup_restore_items">
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
 
-    <string-array name="thumbnail_items">
-        <item>Icon 1</item>
-        <item>Icon 2</item>
-    </string-array>
-    <string-array name="thumbnail_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="thumbnail_drawables">
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
-    </array>
-
-    <string-array name="custom_bg_type_entries">
-        <item>Image</item>
-        <item>Solid color</item>
-        <item>Gradient</item>
-    </string-array>
-    <string-array name="custom_bg_type_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="gradient_entries">
-        <item>Top to bottom</item>
-        <item>Bottom to top</item>
-        <item>Left to right</item>
-        <item>Right to left</item>
-
-    </string-array>
-    <string-array name="gradient_values" translatable="false">
+    <string-array name="op_custom_unlock_animation_style_values" tools:keep="@array/op_custom_unlock_animation_style_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>9</item>
     </string-array>
-
-    <string-array name="crop_entries">
-        <item>Center crop</item>
-        <item>Center inside</item>
-        <item>Fit XY</item>
+    <string-array name="op_custom_unlock_animation_style_entries" tools:keep="@array/op_custom_unlock_animation_style_entries">
+        <item>Cosmos</item>
+        <item>Ripple</item>
+        <item>Stripe</item>
+        <item>McLaren</item>
+        <item>Cosmos (OP7)</item>
+        <item>Ripple (OP7)</item>
+        <item>Энергия (OP8)</item>
+        <item>Ритм (MIUI)</item>
+        <item>Звезды (MIUI)</item>
+        <item>Неон (MIUI)</item>
+        <item>Пульс (MIUI)</item>
+        <item>Кристалл (ASUS Rog Phone 3)</item>
+        <item>Гало (ASUS Rog Phone 3)</item>
+        <item>Молния (ASUS Rog Phone 3)</item>
+        <item>ColorOS (1)</item>
+        <item>ColorOS (2)</item>
+        <item>ColorOS (3)</item>
+        <item>PureView (1)</item>
+        <item>PureView (2)</item>
+        <item>PureView (3)</item>
+        <item>PureView (4)</item>
+        <item>Mi10 Ultra (1)</item>
+        <item>ColorOS (4)</item>
+        <item>Mi10 Ultra (2)</item>
+        <item>Disabled</item>
     </string-array>
-    <string-array name="crop_values" translatable="false">
+    <array name="op_custom_unlock_animation_style_drawables" tools:keep="@array/thumbnail_drawables">
+        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_2</item>
+        <item>@drawable/icon_3</item>
+        <item>@drawable/icon_4</item>
+        <item>@drawable/icon_5</item>
+        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_8</item>
+        <item>@drawable/icon_9</item>
+        <item>@drawable/icon_10</item>
+        <item>@drawable/icon_11</item>
+        <item>@drawable/icon_13</item>
+        <item>@drawable/icon_14</item>
+        <item>@drawable/icon_15</item>
+        <item>@drawable/icon_20</item>
+        <item>@drawable/icon_16</item>
+        <item>@drawable/icon_17</item>
+        <item>@drawable/icon_21</item>
+        <item>@drawable/icon_22</item>
+        <item>@drawable/icon_23</item>
+        <item>@drawable/icon_24</item>
+        <item>@drawable/icon_25</item>
+        <item>@drawable/icon_18</item>
+        <item>@drawable/icon_19</item>
+        <item>@drawable/ic_icon_12</item>
+    </array>
+
+    <string-array name="op_custom_icon_style_values" tools:keep="@array/op_custom_icon_style_values">
         <item>0</item>
+        <item>25</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
     </string-array>
+    <string-array name="op_custom_icon_style_entries" tools:keep="@array/op_custom_icon_style_values">
+        <item>По умолчанию</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <array name="op_custom_icon_style_drawables" tools:keep="@array/op_custom_icon_style_values">
+        <item>@drawable/fod_icon_default</item>
+        <item>@drawable/fod_icon</item>
+        <item>@drawable/fod_icon_arc_reactor</item>
+        <item>@drawable/ic_fod_icon_cpt_america_flat</item>
+        <item>@drawable/ic_fod_icon_cpt_america_flat_gray</item>
+        <item>@drawable/ic_fod_icon_custom_1</item>
+        <item>@drawable/fod_icon_custom_2</item>
+        <item>@drawable/ic_fod_icon_custom_3</item>
+        <item>@drawable/ic_fod_icon_custom_4</item>
+        <item>@drawable/fod_icon_custom_5</item>
+        <item>@drawable/ic_fod_icon_dragon_black_flat</item>
+        <item>@drawable/ic_fod_icon_evo1</item>
+        <item>@drawable/fod_icon_fire_ice_ouroboros</item>
+        <item>@drawable/fod_icon_future</item>
+        <item>@drawable/fod_icon_glow_circle</item>
+        <item>@drawable/fod_icon_neon_arc</item>
+        <item>@drawable/fod_icon_neon_arc_gray</item>
+        <item>@drawable/fod_icon_neon_circle_pink</item>
+        <item>@drawable/fod_icon_neon_triangle</item>
+        <item>@drawable/fod_icon_paint_splash_circle</item>
+        <item>@drawable/ic_fod_icon_rainbow_horn</item>
+        <item>@drawable/ic_fod_icon_scratch_pink_blue</item>
+        <item>@drawable/ic_fod_icon_scratch_red_blue</item>
+        <item>@drawable/fod_icon_shooky</item>
+        <item>@drawable/fod_icon_spiral_blue</item>
+        <item>@drawable/fod_icon_sun_metro</item>
+    </array>
+
+    <string-array name="oem_acc_blackscreen_gestrue_enable_entries" tools:keep="@array/op_custom_unlock_animation_style_entries">
+        <item>Одиночный тап</item>
+        <item>Двойной тап</item>
+        <item>Одиночный + Двойной</item>
+        <item>Отключено</item>
+    </string-array>
+    <array name="oem_acc_blackscreen_gestrue_enable_values" tools:keep="@array/thumbnail_drawables">
+        <item>34816</item>
+        <item>32896</item>
+        <item>32767</item>
+        <item>32768</item>
+    </array>
+
+    <string-array name="sys.aod.custom_data_format_entries">
+        <item>Ср, 1 янв.</item>
+        <item>Среда, 1 янв.</item>
+        <item>Ср, 1 января</item>
+        <item>Среда, 1 января</item>
+        <item>Ср, 01 янв.</item>
+        <item>Среда, 01 янв.</item>
+        <item>Ср, 01 января</item>
+        <item>Среда, 01 января</item>
+        <item>Ср, 1 янв. 20 г.</item>
+        <item>Среда, 1 янв. 20 г.</item>
+        <item>Ср, 1 января 20 г.</item>
+        <item>Среда, 1 января 20 г.</item>
+        <item>Ср, 01 янв. 20 г.</item>
+        <item>Среда, 01 янв. 20 г.</item>
+        <item>Ср, 01 января 20 г.</item>
+        <item>Среда, 01 января 20 г.</item>
+        <item>Ср, 1 янв. 2020 г.</item>
+        <item>Среда, 1 янв. 2020 г.</item>
+        <item>Ср, 1 января 2020 г.</item>
+        <item>Среда, 1 января 2020 г.</item>
+        <item>Ср, 01 янв. 2020 г.</item>
+        <item>Среда, 01 янв. 2020 г.</item>
+        <item>Ср, 01 января 2020 г.</item>
+        <item>Среда, 01 января 2020 г.</item>
+    </string-array>
+    <string-array name="sys.aod.custom_data_format_values">
+        <item>EEE, MMM d</item>
+        <item>EEEE, MMM d</item>
+        <item>EEE, MMMM d</item>
+        <item>EEEE, MMMM d</item>
+        <item>EEE, MMM dd</item>
+        <item>EEEE, MMM dd</item>
+        <item>EEE, MMMM dd</item>
+        <item>EEEE, MMMM dd</item>
+        <item>EEE, MMM d, y</item>
+        <item>EEEE, MMM d, y</item>
+        <item>EEE, MMMM d, y</item>
+        <item>EEEE, MMMM d, y</item>
+        <item>EEE, MMM dd, y</item>
+        <item>EEEE, MMM dd, y</item>
+        <item>EEE, MMMM dd, y</item>
+        <item>EEEE, MMMM dd, y</item>
+        <item>EEE, MMM d, yyyy</item>
+        <item>EEEE, MMM d, yyyy</item>
+        <item>EEE, MMMM d, yyyy</item>
+        <item>EEEE, MMMM d, yyyy</item>
+        <item>EEE, MMM dd, yyyy</item>
+        <item>EEEE, MMM dd, yyyy</item>
+        <item>EEE, MMMM dd, yyyy</item>
+        <item>EEEE, MMMM dd, yyyy</item>
+    </string-array>
+
+    <string-array name="op_doze_visible" tools:keep="@array/op_doze_visible">
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>52</item>
+        <item>54</item>
+        <item>56</item>
+        <item>58</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="op_doze_duration" tools:keep="@array/op_doze_duration">
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>52</item>
+        <item>54</item>
+        <item>56</item>
+        <item>58</item>
+        <item>60</item>
+    </string-array>
+
 </resources>

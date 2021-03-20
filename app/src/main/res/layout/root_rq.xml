@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/root_requirements_first"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:autoSizeMaxTextSize="36sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/root_requirements_second"
+        android:textColor="#80FFFFFF"
+        android:textSize="16sp"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeTextType="uniform" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center_horizontal|top"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRetry"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="retryRootCheck"
+            android:text="@string/button_root_retry"
+            android:textSize="15sp"
+            app:icon="@drawable/ic_reboot"
+            app:strokeColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</LinearLayout>

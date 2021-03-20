@@ -1,1 +1,5 @@
 include ':app'
+include ':RootShell'
+include ':RootTools'
+project(':RootShell').projectDir = new File('C:\\Users\\kiril\\AndroidStudioProjects\\RootShell')
+project(':RootTools').projectDir = new File('C:\\Users\\kiril\\AndroidStudioProjects\\RootTools')

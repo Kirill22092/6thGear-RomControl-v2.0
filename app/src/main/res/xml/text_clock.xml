@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@xml/text_clock">
+    <PreferenceCategory android:title="AOD">
+        <com.wubydax.romcontrol.v3.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="aod.text.clock_enable"
+            android:summaryOff="Выключено"
+            android:summaryOn="Включено"
+            android:title="Включить текстовые часы" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="0"
+            android:dependency="aod.text.clock_enable"
+            android:key="aod.text.clock_padding"
+            android:title="Отступ сверху"
+            app:maxValue="500"
+            app:minValue="0" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="0"
+            android:dependency="aod.text.clock_enable"
+            android:key="aod.text.clock_padding_left"
+            android:title="Отступ слева"
+            app:maxValue="500"
+            app:minValue="0" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="50"
+            android:dependency="aod.text.clock_enable"
+            android:key="aod.text.clock_size"
+            android:title="Размер часов"
+            app:maxValue="100"
+            app:minValue="0" />
+        <com.wubydax.romcontrol.v3.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:dependency="aod.text.clock_enable"
+            android:key="aod.text.data_enable"
+            android:summaryOff="Выключено"
+            android:summaryOn="Включено"
+            android:title="Включить показ даты" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Экран блокировки">
+        <com.wubydax.romcontrol.v3.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="text.clock_enable"
+            android:summaryOff="Выключено"
+            android:summaryOn="Включено"
+            android:title="Включить текстовые часы" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="50"
+            android:dependency="text.clock_enable"
+            android:key="text.clock_size"
+            android:title="Размер часов"
+            app:maxValue="100"
+            app:minValue="0" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="0"
+            android:dependency="text.clock_enable"
+            android:key="text.clock_padding"
+            android:title="Отступ сверху"
+            app:maxValue="500"
+            app:minValue="0" />
+        <com.wubydax.romcontrol.v3.prefs.MySeekBarPreference
+            android:defaultValue="80"
+            android:dependency="text.clock_enable"
+            android:key="text.clock_padding_left"
+            android:title="Отступ слева"
+            app:maxValue="500"
+            app:minValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Общее">
+        <com.wubydax.romcontrol.v3.prefs.ColorPickerPreference
+            android:defaultValue="\#ffffffff"
+            android:key="text.clock_color"
+            android:summary="Выбрать цвет"
+            android:title="Цвет текста часов" />
+        <com.wubydax.romcontrol.v3.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="text.clock_accent_switch"
+            android:summaryOff="Выключено"
+            android:summaryOn="Включено"
+            android:title="Свой цвет текста заголовка" />
+        <com.wubydax.romcontrol.v3.prefs.ColorPickerPreference
+            android:defaultValue="\#ffeb0028"
+            android:dependency="text.clock_accent_switch"
+            android:key="text.clock_accent_color"
+            android:summary="Выбрать цвет"
+            android:title="Цвет текста заголовка" />
+    </PreferenceCategory>
+</PreferenceScreen>

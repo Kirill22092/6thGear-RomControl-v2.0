@@ -1,36 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--Do not forget to include this in any locale specific folders for translation-->
-
-    <!--In the following array put your changelog items
-    Take as many lines as you need.
-    Add as many items as you want or delete some if those are too many
-    This order is how they will appear in the dialog
-    Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Some changelog thing lkjh l lkjh slkjh lkjh s,mnb lkjhs lkjh poiuy slkjh</item>
-        <item>Another changelog thing ;lkj d;lkj ;lkjs ;lkj ;lkj s;lkj ;lkj s;lkj ;lkj ;lks ;lkj ;lkj</item>
-        <item>Some more changelog things</item>
-        <item>Some even more changelog thing</item>
-        <item>And another changelog thing ;lsj; lkjs ;lkj ; lkj;lsjk ;sklj s;lkj s;lk js;lkj s;lkj</item>
-        <item>How many changelog things</item>
-        <item>What a long changelog!!!</item>
-        <item>Is it twenty already?</item>
-        <item>Are we there yet?</item>
-        <item>Live long and prosper</item>
-        <item>So say we all</item>
-        <item>Patience you must have</item>
-        <item>Great scot!!!</item>
-        <item>No disassemble…</item>
-        <item>Almost there</item>
-        <item>Done with changelog</item>
+
+        <item>Исправлено изображение при закрытом датчике приближения (Вместо OnePlus 5T теперь отображается OnePlus 6T)</item>
+        <item>Разблокирована возможность включения анимации сканера отпечатка пальцев от McLaren Edition</item>
+        <item>Включен Horizon Light</item>
+        <item>Разблокирована McLaren тема</item>
+        <item>Разблокированы часы McLaren</item>
+        <item>Разблокированы настройки Horizon Light</item>
+        <item>Разблокирована McLaren анимация для Horizon Light</item>
+        <item>Возможность включить постоянное отображение погоды на AOD</item>
+        <item>Добавлены анимации сканера отпечатка пальцев с OnePlus 7 (не заменяет родные)</item>
+        <item>Добавлена анимация сканера отпечатка пальцев с OnePlus 8 (не заменяет родные)</item>
+        <item>Добавлено 4 анимации сканера отпечатка пальца из MIUI (не заменяет родные)</item>
+        <item>Добавлено 13 анимаций сканера отпечатка пальца из других устройств (не заменяет родные)</item>
+        <item>Добавлено реверсивное повторение анимации Horizon Light</item>
+        <item>Заменена иконка сканера отпечатка пальцев, на аналогичную с OnePlus 7</item>
+        <item>Разблокировано включение анимации отпечатка пальца от McLaren в настройках</item>
+        <item>Портирована анимация сканера отпечатка пальца \"Космос\" из Android 9</item>
+        <item>Реализована возможность активации анимации иконки сканера отпечатка пальца</item>
+        <item>Добавлена возможность поворота экрана на 360°</item>
+        <item>Добавлена возможность делать скриншоты в любом месте</item>
+        <item>Добавлена возможность изменения иконки сканера отпечатка пальца</item>
+        <item>Добавлена возможность изменения формата даты на AOD</item>
+        <item>Добавлена возможность отключения Horizon Light</item>
+        <item>Добавлена возможность изменения жеста включения</item>
+        <item>Добавлена возможность изменения количества строк в панели уведомлений</item>
+        <item>Добавлена возможность изменения количества столбцов в панели уведомлений</item>
+        <item>Добавлена возможность изменения количества настроек в быстрой панели уведомлений</item>
+        <item>Добавлена возможность смены цвета Horizon Light</item>
+        <item>Добавлена возможность выбора цвета Horizon Light под цвет приложения</item>
+        <item>Добавлена возможность изменения количества повторений анимации Horizon Light</item>
+        <item>Добавлена возможность заменить ярлык ассистента на ярлык телефона на экране блокировки</item>
+        <item>Добавлена возможность отключить показ обложки альбома на экране блокировки</item>
+        <item>Добавлена возможность изменить время показа уведомлений на AOD</item>
+        <item>Добавлена возможность изменить время показа AOD после тапа</item>
+        <item>Добавлена возможность изменить время показа AOD после поднятия</item>
+        <item>Добавлена возможность изменить время показа AOD после переключения ползунка</item>
+        <item>Добавлена возможность изменять цвет у иконки сканера отпечатка пальцев</item>
+        <item>Добавлена возможность изменять цвет у неактивной иконки сканера отпечатка пальцев</item>
+        <item>Добавлена возможность включить режим \"Индикатора уведомлений\"</item>
+        <item>Добавлена возможность включить квадратную область подсветки пальца</item>
+        <item>Добавлена возможность изменять цвет области подсветки пальца</item>
+        <item>Добавлена возможность скрыть иконку сканера отпечатка пальцев</item>
+
     </string-array>
-
-    <!--This will be the dialog title.
-    Put your own rom version and name.
-    Have fun-->
-    <string name="rom_version_for_changelog">build v1.0 6thgearrom</string>
-
 
 </resources>

@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="dialog_color_picker">Выбрать цвет</string>
+    <string name="press_color_to_apply_new">Нажмите, чтобы применить новый цвет</string>
+    <string name="press_color_to_apply_old">Нажмите, чтобы применить старый цвет</string>
+    <string name="command_executed_success_toast">Выполнено успешно</string>
+    <string name="root_tools_exception_toast">Файл не найден или в получении root доступа отказано</string>
+    <string name="reboot_menu">Меню перезагрузки</string>
+    <string name="reboot_device_text">Перезагрузить устройство</string>
+    <string name="reboot_recovery_text">Перезагрузить в Recovery</string>
+    <string name="reboot_ui_text">Перезапустить SystemUI</string>
+    <string name="changelog_version_title">Версия: %1$s</string>
+    <string name="app_reboot_required_dialog_title">Требуется перезапуск приложения</string>
+    <string name="app_reboot_required_dialog_message">"%1$s будет перезапущен для применения изменений.\n\nНажмите OK для перезапуска</string>
+    <string name="theme_dialog_title">Выбрать тему</string>
+    <string name="backup_restore_dialog_title">Копировать/восстановить настройки Rom Control</string>
+    <string name="choose_backup_dialog_title">Пожалуйста, выберите копию для восстановления</string>
+    <string name="no_backup_dialog_title">Не обнаружено резервных копий на этом устройстве</string>
+    <string name="no_backup_dialog_message">Вы хотите создать новую резервную копию?</string>
+    <string name="restore_confirm_dialog_title">Пожалуйста, подтвердите восстановление</string>
+    <string name="restore_confirm_message">Вы выбрали восстановление данных из предыдущих версий Rom Control.\n\n<b>Пожалуйста, обратите внимание! Эта операция изменит настройки вашего устройства на основе настроек, хранящихся в этом файле.\n\n<font fgcolor="red">Не приступайте, пока не будете абсолютно уверены!</font></b>\n\nRom Control закроется, чтобы завершить восстановление данных, и снова откроется. В зависимости от объема ваших настроек это может занять некоторое время.\n\nПожалуйста, нажмите \"ОК\", чтобы продолжить, или \"ОТМЕНА\", чтобы выйти.</string>
+    <string name="backup_complete_toast">Резервное копирование завершено успешно. Файл резервной копии находится по пути:\n%1$s</string>
+    <string name="restore_complete_toast">Восстановление завершено</string>
+    <string name="systemui_prefs">Настройки</string>
+    <string name="more_options">Расширенные настройки</string>
+    <string name="set_theme">Выбрать тему</string>
+    <string name="backup_and_restore"><![CDATA[Бекап и восстановление]]></string>
+    <string name="changelog">Изменения</string>
+    <string name="confirm_script_dialog_message">"Вы уверены, что хотите запустить %1$s?"</string>
+    <string name="run_script_confirm_dialog_title">Требуется подтверждение</string>
+    <string name="run_script_confirm_dialog_positive_button">Да, запустить</string>
+    <string name="find_app">Найти приложение</string>
+    <string name="reboot_required_dialog_title">Требуется перезагрузка устройства</string>
+    <string name="reboot_required_dialog_message">Для применения, требуется перезагрузка устройства. Хотите перезагрузить сейчас?</string>
+    <string name="reboot_later_negative_button">Позже</string>
+    <string name="reboot_now_dialog_button">Перезагрузить сейчас</string>
+    <string name="imminent_reboot_warning">Устройство будет перезагружено сразу же после завершения сценария!</string>
+    <string name="restore_dialog_description">Эта функция необходима для восстановления стандартных цветов</string>
+    <string name="multiple_choice_preference_button_done">Готово</string>
+    <string name="deselect_all">Снять выделение</string>
+    <string name="select_all">Выбрать всё</string>
+    <string name="select_all_label">Всё</string>
+    <string name="header_label">SystemUI MOD by Kirill22092</string>
+    <string name="description">Изображение</string>
+    <string name="root_requirements_first">Root не обнаружен</string>
+    <string name="root_requirements_second">Данной версии приложения требуется Root для корректной работы</string>
+    <string name="button_root_retry">Повторить</string>
+    <string name="permission_storage">Требуется доступ к внутреннему хранилищу</string>
+    <string name="permission_window">Требуется разрешение на показ поверх других приложений</string>
+
+    <string name="lockscreen" tools:keep="@string/lockscreen">Экран блокировки</string>
+    <string name="notificationbar" tools:keep="@string/notificationbar">Панель уведомлений</string>
+    <string name="fingerprint" tools:keep="@string/fingerprint">Отпечаток пальца</string>
+    <string name="other_value_text" tools:keep="@string/other_value_text">Бесконечно</string>
+    <string name="text_clock">Текстовые часы</string>
+
+</resources>

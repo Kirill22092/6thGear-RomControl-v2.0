@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/6thGear-RomControl-v2.0.iml" filepath="$PROJECT_DIR$/6thGear-RomControl-v2.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RomControlNew.iml" filepath="$PROJECT_DIR$/.idea/modules/RomControlNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2081160519/RomControlNew.RootShell.iml" filepath="$PROJECT_DIR$/.idea/modules/2081160519/RomControlNew.RootShell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2082302194/RomControlNew.RootTools.iml" filepath="$PROJECT_DIR$/.idea/modules/2082302194/RomControlNew.RootTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RomControlNew.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RomControlNew.app.iml" />
     </modules>
   </component>
 </project>
