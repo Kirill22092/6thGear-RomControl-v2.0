@@ -27,5 +27,5 @@ project(':RootShell').projectDir = new File('C:\\Users\\kiril\\AndroidStudioProj
 ```
 c указанием своего пути до RootShell
 
-6. В папке с RomControl v3.0 открыть файл settings.gradle и указать свой путь до RootShell и RootTools
-7. Проект можно собирать
+5. В папке с RomControl v3.0 открыть файл settings.gradle и указать свой путь до RootShell и RootTools
+6. Проект можно собирать
